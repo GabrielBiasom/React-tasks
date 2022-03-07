@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed;
+  height: 100%;
+  padding: 0.6rem;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: rgb(89, 13, 177);
+  background-color: rgb(203, 157, 255);
+  font-weight: bold;
+  border-right: 2px solid rgb(0, 195, 255);
+}
+
+.title-sidebar {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding-bottom: 6px;
+}
+
+.react {
+  -webkit-animation: rct 2s linear infinite;
+  -webkit-animation-duration: 2.5s;
+}
+
+@keyframes rct {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(366deg);
+    animation: infinite;
+  }
+}

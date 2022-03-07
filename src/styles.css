@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  color: #057bad;
+  background: rgb(206, 255, 177);
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: #08aeea;
+  background-image: linear-gradient(298deg, #08aeea 0%, #2af598 100%);
+  color: #25beff;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.lista {
+  color: rgb(142, 106, 241);
+}
+
+.lista li {
+  margin-top: 8px;
+}
+
+.App .container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;
+}
